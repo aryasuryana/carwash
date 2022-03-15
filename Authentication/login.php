@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
         $_SESSION["username"] = $username; 
         echo "Anda Berhasil Login $username";
         /*Jika Ingin Pindah Ke Halaman Lain*/
-        header("Location: ../dashboard.php"); //Pindahkan Kehalaman Admin
+        header("Location: ../dashboard2.php"); //Pindahkan Kehalaman Admin
     } else {
         // Tampilkan Pesan Error
         display_login_form();
